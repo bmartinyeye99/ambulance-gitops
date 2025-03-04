@@ -9,3 +9,5 @@ labels:
 
 resources:
 - ../../../apps/xbopko-ambulance-ufe
+components:
+- ../../../components/version-developers
