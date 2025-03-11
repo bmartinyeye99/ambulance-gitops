@@ -5,6 +5,9 @@ metadata:
 spec:
   microFrontend: xbopko-ambulance-ufe
   element: cv2-ambulance-wl-list
+  attributes:
+    -name: base-path
+    value: /cv2-ambulance-wl/
   displayRules:
     - allOf:
       - context-name: main-content
