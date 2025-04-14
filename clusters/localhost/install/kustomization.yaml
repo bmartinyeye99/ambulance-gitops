@@ -9,5 +9,10 @@ labels:
 
 resources:
 - ../../../apps/xbopko-ambulance-ufe
+- ../../../apps/xbopko-ambulance-webapi
+
+patches:
+- path: patches/ambulance-webapi.service.yaml
 components:
 - ../../../components/version-developers
+- https://github.com/bmartinyeye99/ambulance-webapi//deployments/kustomize/components/mongodb
