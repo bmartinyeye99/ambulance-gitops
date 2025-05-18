@@ -4,7 +4,7 @@ metadata:
   name: xbopko-ambulance-ufe-content
 spec:
   microFrontend: xbopko-ambulance-ufe
-  element: xbopko-ambulance-wl-list
+  element: xbopko-ambulance-wl-app
   attributes:
     - name: base-path
       value: /xbopko-ambulance-wl/
